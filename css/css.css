@@ -1,0 +1,109 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #1F1D1F;
+	font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+h3 {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 100px;
+    padding-top: 45px;
+    font-size: 20px;
+}
+.orange {
+    font-weight: bold;
+    color:#FFA637;
+    margin-top: -75px;
+    text-align: center;
+    margin-left: 205px;
+    font-size: 30px;
+}
+
+P {
+    color:white;
+
+}
+.home_page {
+    background-color: black;
+    height: 700px;
+    width: 110%;
+    margin: -30px;
+}
+.head_button {
+    color:white;
+    font-weight: bold;
+    border-style: none;
+    background-color: black;
+    outline: none;
+    padding-top: -45px;
+    margin-left: 20px;
+    border-bottom: 1px solid transparent;
+    border-width: 3px;
+}
+.head_button:hover {
+    border-color: #FFA637;
+}
+.head_buttons {
+    margin-left: 750px;
+    margin-top: -45px;
+}
+.welcome_text {
+    margin-top: 200px;
+    margin-left: -230px;
+    text-align: center;
+    font-size: 30px;
+}
+.welcome_text_black {
+    margin-top: 185px;
+    margin-right: 450px;
+    float:right;
+    font-size: 30px;
+    color: black;
+    border-bottom:solid;
+    padding-bottom: 10px;
+    border-color: #FFA637;
+    
+}
+.past_welcome_text {
+    text-align: center;
+    margin-top: -27px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.past_welcome_text_black {
+    text-align: left;
+    margin-top: -180px;
+    margin-left: 637px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    font-size: 16px;
+}
+.about_page {
+    background-color: white;
+    height: 600px;
+    width: 110%;
+    margin-left: -20px;
+}
+.mac_img {
+    height: 300px;
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 150px;
+    
+} 
+.about_ul {
+    margin-left: 615px;
+}
+ul {
+    list-style-image: url(../images/znak.png);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
