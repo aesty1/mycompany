@@ -1,9 +1,8 @@
+*{padding: 0; margin: 0; border: 0;}
 body {
     font-family: 'Open Sans', sans-serif;
     color: #1F1D1F;
 	font-size: 13px;
-    letter-spacing: 1px;
-    line-height: 1.5;
 }
 h3 {
     color:white;
@@ -12,24 +11,25 @@ h3 {
     padding-top: 45px;
     font-size: 20px;
 }
-.orange {
-    font-weight: bold;
-    color:#FFA637;
-    margin-top: -75px;
-    text-align: center;
-    margin-left: 205px;
-    font-size: 30px;
+p {
+    color: white;
+}
+a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
-P {
-    color:white;
 
-}
 .home_page {
     background-color: black;
     height: 700px;
-    width: 110%;
-    margin: -30px;
+    width: 100%;
+}
+.about_team_page {
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    
 }
 .head_button {
     color:white;
@@ -50,55 +50,65 @@ P {
     margin-top: -45px;
 }
 .welcome_text {
-    margin-top: 200px;
-    margin-left: -230px;
-    text-align: center;
+    padding-right: 10px;
     font-size: 30px;
+    display: table-cell;
+}
+.orange {
+    display: table-cell;
+    font-weight: bold;
+    color:#FFA637;
+    margin-top: -75px;
+    margin-left: 205px;
+    font-size: 30px;
+}
+#welcome_text {
+    display: table;
+    margin-top: 200px;
+    margin-left: 35%;
+    text-align: center;
 }
 .welcome_text_black {
-    margin-top: 185px;
-    margin-right: 450px;
-    float:right;
+    margin-top: -370px;
+    margin-left: 740px;
     font-size: 30px;
-    color: black;
-    border-bottom:solid;
+    color: black; 
     padding-bottom: 10px;
-    border-color: #FFA637;
-    
+    width:30%;
+    border-bottom:3px solid #FCAC45;
 }
+
 .past_welcome_text {
     text-align: center;
     margin-top: -27px;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Dongle', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    
+    margin-top: 10px;
 }
 .past_welcome_text_black {
-    text-align: left;
-    margin-top: -180px;
-    margin-left: 637px;
-    font-family: 'Bebas Neue', cursive;
-    font-family: 'Dongle', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    margin-top: -5px;
+    margin-left: 770px;
     color:black;
     font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
 }
 .about_page {
     background-color: white;
     height: 600px;
-    width: 110%;
-    margin-left: -20px;
+    width: 100%;
+    text-align: center;
 }
 .mac_img {
-    height: 300px;
-    width: 350px;
-    margin-top: 150px;
-    margin-left: 150px;
+    height: 400px;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: -700px;
     
 } 
 .about_ul {
-    margin-left: 615px;
+    margin-left: 750px;
 }
 ul {
     list-style-image: url(../images/znak.png);
@@ -106,4 +116,35 @@ ul {
     font-family: 'Dongle', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
+    text-align: left;
+}
+.about_team_h {
+    margin-left: 45%;
+    font-size: 32px;
+    border-bottom: 3px solid #FCAC45;
+    
+}
+.men {
+    margin-left: 10%;
+    display: table;
+    margin-top: 100px;
+}
+.man div {
+    height: 80px;
+    width: 80px;
+    background-color: #D7D7D7;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -15px;
+}
+.man p {
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: -5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.man {
+    text-align: center;
+    display: table-cell;
 }
