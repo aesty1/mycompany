@@ -9,23 +9,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/css.css">
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 </head>
 <body>
-	<div class="home_page">
+	<div id="page1" class="home_page">
 		<h3>MYCOMPANY</h3>
 		<div class="head_buttons">
-			<button class="head_button">HOME</button>
-			<button class="head_button">ABOUT</button>
-			<button class="head_button">SERVICES</button>
-			<button class="head_button">PORTFOLIO</button>
-			<button class="head_button">TESTIMONIALS</button>
-			<button class="head_button">CONTACT</button>
+			<a href="#page1" class="scrollto" id="home">HOME</a>
+			<a href="#page2" class="scrollto" id="about">ABOUT</a>
+			<a href="#page3" class="scrollto" id="services">TEAM</a>
+			<a href="#page4" class="scrollto" id="port">SERVICES</a>
+			<a href="#page5" class="scrollto" id="contact">CONTACT</a>
 		</div>
 		
 		<div id="welcome_text"><p class="welcome_text">WELCOME ON <p class="orange">MYCOMPANY</p></p></div> 
 		<p class="past_welcome_text">We are a digital agency with <b>years of experience</b> and with <b>extraordinary people</b></p>
 	</div>
-	<div class="about_page">
+	<div id="page2" class="about_page">
 		<img class="mac_img" src="images/mac.png" alt="">
 		
 		<p class="welcome_text_black">SOME WORDS <b> ABOUT US </b></p> 
@@ -37,7 +37,7 @@
 			<li><b>Clients</b> - Satisfied clients thanks to our experience</li>
 		</ul>
 	</div>
-	<div class="about_team_page">
+	<div id="page3" class="about_team_page">
 		<br><br><br><br>
 		<a class="about_team_h">OUR TEAM</a> 
 		<div class="men">
@@ -69,9 +69,9 @@
 			
 		</div>
 	</div>
-	<div class="our_services_page">
+	<div id="page4" class="our_services_page">
 		<br><br><br><br>
-		<a class="about_team_h">OUR TEAM</a> 
+		<a class="about_team_h">SERVICES</a> 
 		<p style="text-align: center; margin-top: 40px;color:darkgray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto<br> assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus e,br.x quidem maiores ullam quis, at asperiores<br> minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.</p>
 		<div class="men">
 			<div class="man">
@@ -97,7 +97,7 @@
 			
 		</div>
 	</div>
-	<div class="contact">
+	<div id="page5" class="contact">
 		<br><br><br><br>
 		<a class="about_team_h">CONTACT US</a> 
 		<p style="margin-top: 40px;color:darkgray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at<br>asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa<br>tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
@@ -105,7 +105,7 @@
 			<div class="inp_table">
 				<div class="inp_name">
 					<p>Name *</p>
-					<input class="name" type="text"> 
+					<input class="Name" type="text"> 
 				</div>
 				<div class="inp_email">
 					<p>Email address *</p>
@@ -116,7 +116,7 @@
 				<p>Message *</p>
 				<input class="text" type="text"> 
 			</div>
-			<button class="send_btn"><a class="send_btn_a"  href="mailto:kadirovdenis123@gmail.com?:»>order@mysite.com">SEND</a></button>
+			<button class="send_btn"><a class="send_btn_a">SEND</a></button>
 		</div>
 					
 	</div>

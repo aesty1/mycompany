@@ -41,7 +41,8 @@ a {
     height: 500px;
     width: 100%;
 }
-.head_button {
+.scrollto {
+    text-decoration: none;
     color:white;
     font-weight: bold;
     border-style: none;
@@ -53,11 +54,11 @@ a {
     border-width: 3px;
     font-size: 12px;
 }
-.head_button:hover {
+.scrollto:hover {
     border-color: #FFA637;
 }
 .head_buttons {
-    margin-left: 750px;
+    margin-left: 900px;
     margin-top: -45px;
 }
 .welcome_text {
@@ -208,6 +209,7 @@ p {
     width: 100%;
     text-align: center;
 }
+
 .contact * {
     text-align: center;
 }
